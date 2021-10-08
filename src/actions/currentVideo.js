@@ -1,6 +1,6 @@
 var changeVideo = (video) => ({
   type: 'CHANGE_VIDEO',
-  payload: video
+  video: video
 });
 
 export default changeVideo;
